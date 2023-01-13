@@ -1,0 +1,7 @@
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3238;
+  min-height: 100vh;
+}

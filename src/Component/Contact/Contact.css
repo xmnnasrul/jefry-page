@@ -1,0 +1,26 @@
+#contact .container {
+  position: relative;
+  top: 150px;
+  min-height: 100vh;
+}
+#contact h2 {
+  text-align: center;
+  font-size: 50px;
+}
+#contact .content {
+  margin-top: 40px;
+}
+#contact ul {
+  display: flex;
+  justify-content: center;
+}
+#contact li {
+  list-style: none;
+}
+#contact ul li i {
+  font-size: 100px;
+  margin: 30px;
+}
+.content ul li .large-icons {
+  margin-left: 30px;
+}

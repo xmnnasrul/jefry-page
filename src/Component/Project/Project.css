@@ -1,0 +1,46 @@
+.Card .Card-Content .Card-Body img {
+  width: 300px;
+  border-radius: 20px;
+}
+.Card .Card-Content .Card-Header {
+  background-color: red;
+  height: 50px;
+}
+.Card {
+  border: 3px solid yellow;
+  width: 350px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.Card-Project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup .gambar {
+  position: absolute;
+  /* max-width: 50%; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  width: 500px !important;
+}
+.popup .gambar.dua {
+  height: 95%;
+}
+.popup .gambar.tiga {
+  /* height: 95%; */
+  height: 900px;
+}
